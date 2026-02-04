@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DareSOL - Solana Native Trader & Builder
 
-## Getting Started
+A modern, responsive website for DareSOL - a Solana-native trader specializing in memecoins, microcaps, multi-asset perps, and narrative rotations.
 
-First, run the development server:
+## Features
 
+- **Hero Section**: Eye-catching gradient animations with performance stats
+- **Portfolio Tracking**: Real-time transaction visualization and portfolio management
+- **Global Transfers**: Interactive map showing global trading activity
+- **Pump.fun Course**: Educational content for memecoin creation
+- **Contact Form**: Direct communication channel
+- **Responsive Design**: Fully optimized for all devices
+- **Smooth Animations**: Built with Framer Motion for fluid interactions
+
+## Tech Stack
+
+- **Framework**: Next.js 16.1.1 (TypeScript)
+- **Styling**: Tailwind CSS 4.1.18
+- **Animations**: Framer Motion 12.24.12
+- **Icons**: Lucide React
+- **Package Manager**: pnpm
+
+## Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/daresol-website.git
+cd daresol-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+daresol-website/
+├── app/
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Home page
+├── components/
+│   ├── Navigation.tsx   # Navigation bar
+│   ├── HeroSection.tsx  # Hero section
+│   ├── PortfolioSection.tsx
+│   ├── GlobalTransfersSection.tsx
+│   ├── CourseSection.tsx
+│   ├── ContactSection.tsx
+│   └── Footer.tsx
+├── lib/
+│   └── utils.ts         # Utility functions
+└── public/
+    └── grid.svg         # Background pattern
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Dark theme with gradient accents
+- Glass morphism effects
+- Animated background elements
+- Interactive transaction cards
+- Global transfer visualization
+- Responsive grid layouts
 
-## Deploy on Vercel
+## Performance Stats (Displayed)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 2025 YTD Performance: +312%
+- Average R/R: 3.8R
+- Win Rate: 41%
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is licensed under the MIT License.
